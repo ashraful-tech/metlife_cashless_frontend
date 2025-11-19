@@ -30,8 +30,7 @@ export const ReusableTable: FC<PropsType> = ({
             ? "left-0 z-10" // first column header
             : "z-0"
         } // other headers
-      `}
-                >
+      `}>
                   {head}
                 </th>
               ))}

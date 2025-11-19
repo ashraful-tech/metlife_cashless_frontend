@@ -47,8 +47,8 @@ export const MedicalAssessmentUnit = () => {
   }, [csAppointmentStatus, medicalStatus, status, page, search]);
 
   return (
-    <div className="mt-[-20px]">
-      <MedicalAssessmentFilter />
+    <div className="mt-[-80px]">
+      {/* <MedicalAssessmentFilter /> */}
 
       <MedicalAssessmentLists
         data={tableData as any}

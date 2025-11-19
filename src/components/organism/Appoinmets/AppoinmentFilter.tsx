@@ -31,7 +31,7 @@ export const AppoinmentFilter = () => {
 						label="From - To Date"
 					/>
 
-					<div className="mt-10 w-full">
+					<div className="mt-5 w-full">
 						<SearchInput searchKey="search" placeholder="Search by patient name, mobile number..." />
 					</div>
 				</div>
