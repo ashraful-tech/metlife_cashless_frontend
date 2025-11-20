@@ -34,5 +34,14 @@ export default withAuth(
 		},
 	}
 );
-export const config = { matcher: ["/", "/appoinment", "/medical-assessment", "/business-team", "/metlife"] };
+export const config = {
+  matcher: [
+    "/",
+    "/appoinment",
+    "/medical-assessment",
+    "/medical-appoinments",
+    "/business-team",
+    "/metlife",
+  ],
+};
 // "/metlife",
